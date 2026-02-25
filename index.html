@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitemap Validator - XML sitemap dosyalarını doğrulayan ve analiz eden CLI aracı</title>
+    <meta name="description" content="XML sitemap dosyalarını doğrulayan ve analiz eden CLI aracı. TurkCode tarafından geliştirilmiş açık kaynak Node.js aracı.">
+    <meta name="keywords" content="seo, sitemap, xml, validator, nodejs, cli">
+    <meta name="author" content="TurkCode">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Sitemap Validator">
+    <meta property="og:description" content="XML sitemap dosyalarını doğrulayan ve analiz eden CLI aracı">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://turkcoode.github.io/sitemap-validator">
+    <meta property="og:site_name" content="TurkCode">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Sitemap Validator">
+    <meta name="twitter:description" content="XML sitemap dosyalarını doğrulayan ve analiz eden CLI aracı">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://turkcoode.github.io/sitemap-validator">
+
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Sitemap Validator",
+        "description": "XML sitemap dosyalarını doğrulayan ve analiz eden CLI aracı",
+        "url": "https://turkcoode.github.io/sitemap-validator",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Cross-platform",
+        "programmingLanguage": "JavaScript",
+        "author": {
+            "@type": "Organization",
+            "name": "TurkCode",
+            "url": "https://turkcode.net"
+        },
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "codeRepository": "https://github.com/turkcoode/sitemap-validator",
+        "license": "https://opensource.org/licenses/MIT"
+    }
+    </script>
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #24292e;
+            background: #f6f8fa;
+        }
+        .container { max-width: 800px; margin: 0 auto; padding: 2rem 1rem; }
+        header {
+            background: linear-gradient(135deg, #0366d6, #2ea44f);
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+        header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+        header p { font-size: 1.2rem; opacity: 0.9; max-width: 600px; margin: 0 auto; }
+        .badges { margin-top: 1rem; }
+        .badges img { margin: 0 0.25rem; }
+        .section { background: white; border-radius: 6px; padding: 2rem; margin: 1.5rem 0; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .section h2 { color: #0366d6; margin-bottom: 1rem; border-bottom: 2px solid #f1f1f1; padding-bottom: 0.5rem; }
+        pre {
+            background: #1b1f23;
+            color: #e1e4e8;
+            padding: 1rem;
+            border-radius: 6px;
+            overflow-x: auto;
+            margin: 1rem 0;
+        }
+        code { font-family: 'SFMono-Regular', Consolas, monospace; font-size: 0.9rem; }
+        .features { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+        .feature { padding: 1rem; background: #f6f8fa; border-radius: 6px; }
+        .feature h3 { color: #2ea44f; font-size: 1rem; }
+        .btn {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            margin: 0.5rem;
+        }
+        .btn-primary { background: #2ea44f; color: white; }
+        .btn-secondary { background: #0366d6; color: white; }
+        .cta { text-align: center; padding: 2rem; }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #586069;
+            border-top: 1px solid #e1e4e8;
+            margin-top: 2rem;
+        }
+        footer a { color: #0366d6; text-decoration: none; }
+        @media (max-width: 600px) {
+            .features { grid-template-columns: 1fr; }
+            header h1 { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sitemap Validator</h1>
+        <p>XML sitemap dosyalarını doğrulayan ve analiz eden CLI aracı</p>
+        <div class="badges">
+            <img src="https://img.shields.io/npm/v/sitemap-validator.svg" alt="npm version">
+            <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License">
+            <img src="https://img.shields.io/badge/node-%3E%3D14-brightgreen.svg" alt="Node.js">
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="section">
+            <h2>Hızlı Başlangıç</h2>
+            <pre><code>npm install -g sitemap-validator
+
+sitemap-validator --help</code></pre>
+        </div>
+
+        <div class="section">
+            <h2>Özellikler</h2>
+            <div class="features">
+                <div class="feature">
+                    <h3>Kolay Kullanım</h3>
+                    <p>Tek komutla kurulum ve çalıştırma. Sıfır yapılandırma gerektirir.</p>
+                </div>
+                <div class="feature">
+                    <h3>Hızlı ve Hafif</h3>
+                    <p>Minimum bağımlılık ile yüksek performans sunar.</p>
+                </div>
+                <div class="feature">
+                    <h3>CLI ve API</h3>
+                    <p>Hem komut satırından hem de programatik olarak kullanılabilir.</p>
+                </div>
+                <div class="feature">
+                    <h3>Türkçe Destek</h3>
+                    <p>Tam Türkçe karakter ve dil desteği ile geliştirilmiştir.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Kullanım Örneği</h2>
+            <pre><code>const sitemapvalidator = require('sitemap-validator');
+
+const result = sitemapvalidator.analyze(input);
+console.log(result);</code></pre>
+        </div>
+
+        <div class="cta">
+            <a href="https://github.com/turkcoode/sitemap-validator" class="btn btn-primary">GitHub'da Görüntüle</a>
+            <a href="https://turkcode.net/blog" class="btn btn-secondary">Blog Yazıları</a>
+        </div>
+    </div>
+
+    <footer>
+        <p><a href="https://turkcode.net">TurkCode</a> tarafından açık kaynak olarak geliştirilmiştir.</p>
+        <p style="margin-top: 0.5rem;">
+            <a href="https://github.com/turkcoode/sitemap-validator">GitHub</a> &middot;
+            <a href="https://turkcode.net/blog">Blog</a> &middot;
+            <a href="https://www.npmjs.com/package/sitemap-validator">npm</a>
+        </p>
+    </footer>
+</body>
+</html>
