@@ -1,0 +1,34 @@
+{
+  "name": "sitemap-validator",
+  "version": "1.0.0",
+  "description": "XML sitemap dosyalarını doğrulayan ve analiz eden CLI aracı",
+  "main": "index.js",
+  "bin": {
+    "sitemap-validator": "./index.js"
+  },
+  "scripts": {
+    "test": "node index.js --help",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "seo",
+    "sitemap",
+    "xml",
+    "validator",
+    "nodejs",
+    "cli"
+  ],
+  "author": "TurkCode <https://turkcode.net>",
+  "license": "MIT",
+  "homepage": "https://turkcode.net",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/turkcoode/sitemap-validator"
+  },
+  "bugs": {
+    "url": "https://github.com/turkcoode/sitemap-validator/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
