@@ -59,6 +59,15 @@ Pull request'ler memnuniyetle karşılanır. Büyük değişiklikler için lütf
 - [SSS](docs/SSS.md)
 - [Örnekler](docs/Örnekler.md)
 
+## İlişkili Projeler
+
+Bu projeyle ilgili diğer açık kaynak araçlarımız:
+
+- [**Robots.txt Parser**](https://github.com/turkcoode/robots-txt-parser) - seo aracı
+
+Tüm projeler: [github.com/turkcoode](https://github.com/turkcoode) | [TURK CODE Blog](https://turkcode.net/blog)
+
+
 ## Lisans
 
 MIT - Detaylar için [LICENSE](LICENSE) dosyasına bakın.
