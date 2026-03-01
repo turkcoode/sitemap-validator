@@ -64,6 +64,7 @@ Pull request'ler memnuniyetle karşılanır. Büyük değişiklikler için lütf
 Bu projeyle ilgili diğer açık kaynak araçlarımız:
 
 - [**Robots.txt Parser**](https://github.com/turkcoode/robots-txt-parser) - seo aracı
+- [**Schema.org Validator**](https://github.com/turkcoode/schema-validator) - seo aracı
 
 Tüm projeler: [github.com/turkcoode](https://github.com/turkcoode) | [TURK CODE Blog](https://turkcode.net/blog)
 
