@@ -165,3 +165,5 @@ Daha fazla bilgi: https://turkcode.net
 }
 
 module.exports = { analyze };
+
+// Input validation güçlendirildi
